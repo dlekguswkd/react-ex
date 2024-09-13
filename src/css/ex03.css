@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-p {
+#name {
     text-align: right;
     font-weight: bold;
 }
