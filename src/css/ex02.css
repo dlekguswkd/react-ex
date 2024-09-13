@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    font-size: 15px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
+
+table>thead>tr {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+table>thead>tr>th, table>tbody>tr>td {
+    border: 1px solid #000000;
+}

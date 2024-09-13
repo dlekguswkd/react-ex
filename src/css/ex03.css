@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+p {
+    text-align: right;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+}
+
+table>thead>tr {
+    background-color: #fff;
+    color: #000000;
+    font-weight: bold;
+}
+
+table>thead>tr>th, table>tbody>tr>td {
+    border: 1px solid #000000;
+}
