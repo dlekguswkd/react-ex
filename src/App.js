@@ -9,6 +9,12 @@ import Ex04 from './views/Ex04';
 import Ex05 from './views/Ex05';
 import Ex06 from './views/Ex06';
 import Ex07 from './views/Ex07';
+import Ex08 from './views/Ex08';
+import Ex09 from './views/Ex09';
+import Ex10 from './views/Ex10';
+import Ex11 from './views/Ex11';
+import Ex12 from './views/Ex12';
+import Ex13 from './views/Ex13';
 
 
 function App() {
@@ -25,6 +31,12 @@ function App() {
           <Route path='/ex05' element={<Ex05 />} />
           <Route path='/ex06' element={<Ex06 />} />
           <Route path='/ex07' element={<Ex07 />} />
+          <Route path='/ex08' element={<Ex08 />} />
+          <Route path='/ex09' element={<Ex09 />} />
+          <Route path='/ex10' element={<Ex10 />} />
+          <Route path='/ex11' element={<Ex11 />} />
+          <Route path='/ex12' element={<Ex12 />} />
+          <Route path='/ex13' element={<Ex13 />} />
         </Routes>
       </BrowserRouter>
     </div>
